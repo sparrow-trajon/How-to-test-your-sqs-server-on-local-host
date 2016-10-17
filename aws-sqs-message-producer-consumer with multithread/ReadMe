@@ -1,0 +1,15 @@
+This is the code for the Amazon Sqs Message Queue.
+Here I try to give a very simple and basic solution to this problem.
+lets first understand the problem....what excatly we have to do..!!!
+        we have Amazozn weeb services, SQS(Simple Queue services), which provide a lot of web sevvices.
+        our prime focus on the SQS, which stands for the Simple QUEUE Services, Mean we can create queue and manipulate the operation on them.
+        lets have the idea about the basic code structure.
+        1. Connection class, which is responsible for making the connection request to the server, in case you want to test it on the local server.
+            then you must set the endpoint to the local web host.
+        2. Producer class, which is responsible for the creating the queue request, creating the messages either in bacth or just simple message
+            requets. which will be sent the server.
+        3.consumer class, which is responsible for receiving all the message which are there in the queue and processing all the messages.
+            after processing will delete the message.
+            
+
+connection class is being set to test the test on the local server.
